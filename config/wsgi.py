@@ -1,10 +1,7 @@
-"""
-WSGI config for config project.
+"""WSGI config for this Django project.
 
-It exposes the WSGI callable as a module-level variable named ``application``.
-
-For more information on this file, see
-https://docs.djangoproject.com/en/5.2/howto/deployment/wsgi/
+Exposes the WSGI `application` used by WSGI servers. Core API code is in
+`portfolio_api` and configuration is in `config/settings.py`.
 """
 
 import os

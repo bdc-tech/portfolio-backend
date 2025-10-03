@@ -1,10 +1,8 @@
-"""
-ASGI config for config project.
+"""ASGI config for this Django project.
 
-It exposes the ASGI callable as a module-level variable named ``application``.
-
-For more information on this file, see
-https://docs.djangoproject.com/en/5.2/howto/deployment/asgi/
+This file exposes the ASGI `application` used by ASGI servers. The API
+implementation is in the `portfolio_api` app; settings live in
+`config/settings.py`.
 """
 
 import os

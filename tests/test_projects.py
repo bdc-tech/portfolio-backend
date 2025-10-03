@@ -1,14 +1,16 @@
 import pytest
 
 
+"""Integration tests for project listing.
+
+These tests use the Django test client provided by pytest-django to perform
+HTTP-level checks against the running Django test server and database.
+"""
+
+
 @pytest.mark.django_db
 def test_projects_list_returns_seeded_items(client):
-    """Verify GET /api/projects/ returns 200 and seeded projects.
-
-    This test seeds a couple of Project objects and ensures the list
-    endpoint returns them. It demonstrates a simple integration test
-    for DRF endpoints.
-    """
+    """Verify GET /api/projects/ returns 200 and seeded projects."""
     from portfolio_api import models
 
     # Seed data

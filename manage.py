@@ -1,5 +1,10 @@
 #!/usr/bin/env python
-"""Django's command-line utility for administrative tasks."""
+"""Django's command-line utility for administrative tasks.
+
+Note for reviewers: used to run migrations, create superuser, and start the
+development server. No logic changes were made here; all API work lives in
+the `portfolio_api` app and `config` settings.
+"""
 import os
 import sys
 

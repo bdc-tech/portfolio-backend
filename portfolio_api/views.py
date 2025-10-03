@@ -16,7 +16,7 @@ class ProjectViewSet(viewsets.ModelViewSet):
 	"""Full CRUD API for Project.
 
 	ModelViewSet gives list/retrieve/create/update/destroy actions that are
-	commonly used in portfolio backends. Useful interview talking points:
+	commonly used in portfolio backends. Talking points:
 	- Pagination and filtering could be added with DRF mixins
 	- Permissions can be set per-action
 	"""

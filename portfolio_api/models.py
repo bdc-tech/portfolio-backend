@@ -34,7 +34,7 @@ class Project(models.Model):
 class Skill(models.Model):
 	"""A skill or technology and proficiency level.
 
-	level choices are the typical buckets used on resumes/interviews.
+	level choices are the typical buckets used on resumes.
 	"""
 
 	LEVEL_BEGINNER = 'Beginner'

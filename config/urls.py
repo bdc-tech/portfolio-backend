@@ -38,7 +38,7 @@ urlpatterns = [
     # OpenAPI JSON schema endpoint (machine-readable)
     path('api/schema/', SpectacularAPIView.as_view(), name='schema'),
 
-    # Swagger UI - interactive API docs for humans (good for interviews/demos)
+    # Swagger UI - interactive API docs for humans (good for demos)
     path('api/docs/', SpectacularSwaggerView.as_view(url_name='schema'), name='swagger-ui'),
 
     # ReDoc - another human-friendly API documentation UI

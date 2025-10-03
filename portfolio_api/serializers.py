@@ -49,7 +49,7 @@ class SkillSerializer(serializers.ModelSerializer):
     """Serializer for Skill model with level validation.
 
     We rely on the model's choices but include a clear error message here
-    to make validation behaviour explicit during interviews.
+    to make validation behaviour explicit.
     """
 
     class Meta:

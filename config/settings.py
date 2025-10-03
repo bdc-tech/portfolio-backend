@@ -130,7 +130,6 @@ USE_TZ = True
 
 # -----------------------------------------------------------------------------
 # Django REST framework configuration
-# - Explainable defaults for authentication and schema generation used in interviews
 # -----------------------------------------------------------------------------
 REST_FRAMEWORK = {
     # Use JWT authentication (via SimpleJWT) as the default for API endpoints.
@@ -149,7 +148,7 @@ REST_FRAMEWORK = {
 # CORS configuration
 # - Allow the local frontend dev servers to access this API during development
 # -----------------------------------------------------------------------------
-# For interview/demo setups we usually allow localhost:3000 where a React/Vite
+# For demo setups we usually allow localhost:3000 where a React/Vite
 # frontend runs. In production you should restrict or compute this dynamically.
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:3000',
@@ -159,7 +158,6 @@ CORS_ALLOWED_ORIGINS = [
 
 # -----------------------------------------------------------------------------
 # drf-spectacular (OpenAPI) settings
-# - Provides metadata for generated OpenAPI schema (useful to show during interviews)
 # -----------------------------------------------------------------------------
 SPECTACULAR_SETTINGS = {
     'TITLE': 'Branden Portfolio API',

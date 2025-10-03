@@ -25,7 +25,7 @@ urlpatterns = [
     # This demonstrates token-protected endpoints inside the app's router.
     path('whoami/', views.whoami, name='whoami'),
 
-    # CURL examples (useful for interviews/demos):
+    # CURL examples (useful for demos):
     # 1) Obtain tokens (run against the TokenObtainPairView defined in config/urls.py)
     # curl -X POST http://127.0.0.1:8000/api/auth/token/ -H "Content-Type: application/json" -d '{"username":"admin","password":"pass"}'
     # 2) Call whoami with an access token:
